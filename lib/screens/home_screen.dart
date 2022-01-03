@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/screens/camera_screen.dart';
 import 'package:whatsapp_clone/screens/chats_screen.dart';
 
 class HomeScreen extends StatefulWidget {
