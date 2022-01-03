@@ -8,10 +8,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'WhatsApp Clone',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        colorScheme: ThemeData().colorScheme.copyWith(
+              primary: Color.fromRGBO(50, 136, 124, 1),
+              secondary: Colors.grey,
+            ),
       ),
+      debugShowCheckedModeBanner: false,
       home: HomeScreen(),
     );
   }
